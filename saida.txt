@@ -1,0 +1,25 @@
+=== Gulosa ===
+Ordem de expansão : Arad -> Sibiu -> Fagaras -> Bucareste
+Caminho encontrado: Arad -> Sibiu -> Fagaras -> Bucareste
+Custo (km)        : 450
+Nós expandidos    : 4
+Nós gerados       : 8
+
+=== A* ===
+Ordem de expansão : Arad -> Sibiu -> Rimnicu Vilcea -> Pitesti -> Fagaras -> Bucareste
+Caminho encontrado: Arad -> Sibiu -> Rimnicu Vilcea -> Pitesti -> Bucareste
+Custo (km)        : 418
+Nós expandidos    : 6
+Nós gerados       : 10
+
+=== Largura ===
+Ordem de expansão : Arad -> Zerind -> Sibiu -> Timisoara -> Oradea -> Fagaras -> Rimnicu Vilcea -> Lugoj -> Bucareste
+Caminho encontrado: Arad -> Sibiu -> Fagaras -> Bucareste
+Custo (km)        : 450
+Nós expandidos    : 9
+Nós gerados       : 12
+
+Método     | Custo(km) | Expandidos | Gerados | Caminho
+Gulosa     | 450       | 4          | 8       | Arad > Sibiu > Fagaras > Bucareste
+A*         | 418       | 6          | 10      | Arad > Sibiu > Rimnicu Vilcea > Pitesti > Bucareste
+Largura    | 450       | 9          | 12      | Arad > Sibiu > Fagaras > Bucareste
